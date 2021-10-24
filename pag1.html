@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>Cadastro</title>
+    <header>
+        <picture>
+            <img src="rlx3dp.png" alt="logo">
+        </picture>
+    </header>
+    <main>
+        <h1>Cadastro</h1>
+        <h2>Preencha Corretamente</h2>
+        <form >
+            <fieldset>
+                <div id="nome">
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div>
+                    <label for="campo"> Sobrenome:</label> <br>
+                    <input type="text" name=sobrenome id="sobrenome" required>
+                </div>
+            </fieldset>
+
+            <div>
+                <label  id="emal" for="campo">E-mail:</label> <br>
+                <input type="email" name="email" id="email" required>
+            </div> 
+            <div>
+                <label id="cepi" >CEP:</label> <br>
+                <input type="text" name="cep" id="cep">
+            </div>
+            <div>
+                <label id="genero" >Gênero:</label>
+                <label > <br>
+                    <input id="fem" type="radio" name="genero" value="feminino" required>
+                     Feminino </label>
+                <label > <br>
+                    <input id="masc"type="radio" name="genero" value="masculino" required>
+                    Masculino
+                </label>  <br>
+                <label>
+                    <input id="trans" type="radio" name="genero" value="transgenero" required>
+                    Transgênero
+                </label> <br>
+                <label>
+                    <input id="outri" type="radio" name="genero" value="outros" required>
+                    Outro
+                </label>
+            </div>
+            <div id="rala">
+                <label id="raca">Raça</label>
+                <select id="raça" required>
+                    <option selected disabled value="">Selecione...</option>
+                    <option>Branca</option>
+                    <option>Negra</option>
+                    <option>Pardo</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+            
+        </form>
+        <div id="botao"><button type="submit"> <strong>Concluído</strong></button></div>
+    </main>
+</head>
+<body>
+    
+</body>
+</html>
